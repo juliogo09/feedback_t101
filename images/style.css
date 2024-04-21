@@ -45,6 +45,7 @@ body {
 .Botoes {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 32px;
 }
 .Botoes button {
     width: 51px;
@@ -56,7 +57,32 @@ body {
     border: none;
     color: var(--medium-grey);
     background-color: var(--dark-blue);
+    transition: all ease-in-out 0.3s;
 }
 .Botoes button:hover {
-    
+    color: var(--white);
+    background-color: var(--orange);
+    cursor: pointer;
+}
+.Botoes button:focus {
+    color: var(--white);
+    background-color: var(--light-grey);
+}
+.Card > button {
+    width: 100%;
+    padding: 13px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 22px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--white);
+    transition: all ease-in-out 0.3s;
+}
+.Card > button:hover {
+    color: var(--orange);
+    background-color; var(--white);
+    cursor: pointer;
 }
