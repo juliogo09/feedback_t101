@@ -86,6 +86,6 @@ body {
 }
 .Card > a:hover {
     color: var(--orange);
-    background-color; var(--white);
+    background-color: var(--white);
     cursor: pointer;
 }
